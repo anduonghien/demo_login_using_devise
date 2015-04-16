@@ -1,16 +1,16 @@
-Step 1
+## Step 1
 
 * add gem 'devise'
 * bundle install
 
-Step 2
+## Step 2
 
 * rails generate devise:install # Creates config file, etc.
 * rails generate devise user # Create model class, routes, etc.
 * rake db:migrate # Create user table
 * rails generate devise:views users # Creates (minimal) views
 
-Step 3:
+## Step 3:
 
 --- Config
 Ensure you have defined default url options in your environments files. Here
@@ -25,7 +25,7 @@ config.action_mailer.delivery_method = :smtp
 
 config.action_mailer.smtp_settings = {:address => "localhost", :port => 1025}
 
-Step 4:
+## Step 4:
 
 Install MailCatcher
 
